@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SlickGrid with AngularJS</title>
+  <link rel="stylesheet" type="text/css" href="dist/scss/app.css">
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="slickgrid/slick.grid.css">
+  <link rel="stylesheet" type="text/css" href="slickgrid/css/smoothness/jquery-ui-1.11.3.custom.css">
+  <link rel="stylesheet" type="text/css" href="slickgrid/example/example.css">
+</head>
+<body style="padding: 20px">
+  <h3>
+  Welcome to check out SlickGrid with AngularJS
+  </h3>
+    <ul class="nav nav-tabs">
+      <li role="presentation" class="active"><a ui-sref="basic">Basic</a></li>
+      <li role="presentation"><a ui-sref="editable">Editable</a></li>
+    </ul>
+  <div ui-view></div>
+  <script src="bower_components/requirejs/require.js" data-main="dist/js/main.js"></script>
+</body>
+</html>
